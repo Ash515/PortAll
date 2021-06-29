@@ -1,0 +1,105 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-height: 500px;
+  padding: 0;
+  width: 450px;
+}
+#head{
+  display: block;
+  background-color: #0c0920;
+  color:white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  font-family: "Menlo", monospace;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  color: #2f5876;
+}
+
+a:link,
+a:visited {
+  color: #000000;
+  outline: 0;
+  text-decoration: none;
+}
+
+img {
+  width: 30px;
+}
+
+.modal-header {
+  align-items: center;
+  border-bottom: 0.5px solid #dadada;
+}
+
+.modal-content {
+  padding: 0 22px;
+}
+
+.modal-icons {
+  border-top: 0.5px solid #dadada;
+  height: 60px;
+  width: 100%;
+}
+
+.logo {
+  padding: 16px;
+}
+
+.logo-icon {
+  vertical-align: text-bottom;
+  margin-right: 12px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+}
+#add-btn{
+    width:200px;
+    height: 30px;
+    margin-left: 130px;
+    color:white;
+    background-color: rgba(32, 9, 49, 0.678);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main{
+    display: none;
+}
+#link-title{
+    width:300px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+#link{
+    width:300px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+#save-btn{
+    width:100px;
+    height: 30px;
+    margin-left: 180px;
+    color:white;
+    background-color: rgba(131, 26, 206, 0.932);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+li{
+    list-style-type: none;
+}
